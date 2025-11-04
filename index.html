@@ -8,22 +8,19 @@
     html, body {
       margin: 0;
       padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden; /* evita rolagem */
+      background: #222;
     }
 
     body {
-      background: #222;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: center; /* centraliza horizontalmente */
     }
 
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* cobre toda a tela, mantendo proporção */
+      width: 100%;  /* ocupa toda a largura da página */
+      height: auto; /* mantém proporção da imagem */
+      border-radius: 8px;
+      display: block;
     }
   </style>
 </head>
